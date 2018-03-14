@@ -1,0 +1,28 @@
+{
+  "name": "nztagraphql",
+  "version": "1.0.0",
+  "description": "nzta graphql for api's",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suminda123/nztagraphql.git"
+  },
+  "author": "Earl Suminda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suminda123/nztagraphql/issues"
+  },
+  "homepage": "https://github.com/suminda123/nztagraphql#readme",
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "node-fetch": "^2.1.1",
+    "xml2js": "^0.4.19"
+  }
+}
